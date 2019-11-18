@@ -28,12 +28,8 @@ public:
 	int getCouleur(void)const;
 	void setCouleur(int C);
 	void setNumero(int N);
- friend ostream &operator <<(ostream &os,const Carte &C);
-
-
-
-
-
+	
+    friend ostream &operator <<(ostream &os,const Carte &C);
 	friend bool operator!=(const Carte &C1,const Carte &C2);
 	friend bool operator==(const Carte &C1,const Carte &C2);
 

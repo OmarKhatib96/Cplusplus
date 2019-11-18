@@ -137,7 +137,7 @@ class Polygone{
 			}
 
 
-		~Polygone(){
+		~Polygone(){//Destructeur
 		delete [] tab;
 
 			}
