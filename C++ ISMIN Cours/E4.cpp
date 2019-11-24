@@ -21,6 +21,7 @@ public:
 	void Majuscule(void);
 	bool EstEgal(const String& str2)const;
 	friend void Modification(float NvTaux);
+	
 private:
 
 	char *ch;
