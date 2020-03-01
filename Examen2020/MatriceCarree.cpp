@@ -3,15 +3,15 @@
 
 
 
-MatriceCarre::MatriceCarre()
+MatriceCarree::MatriceCarree()
 {
 	
-	MatriceCarre(0);
+	MatriceCarree(0);
 	
 	
 }
 
-MatriceCarre::MatriceCarre(int dimension_matrice)
+MatriceCarree::MatriceCarree(int dimension_matrice)
 {
 	dimension=dimension_matrice;
 	vector<int> array_ini;// array of dimension_matrice 0
@@ -24,13 +24,13 @@ MatriceCarre::MatriceCarre(int dimension_matrice)
 			
 }
 
-int MatriceCarre::getDimension()const
+int MatriceCarree::getDimension()const
 {
 	return dimension;
 	
 }
 
-int MatriceCarre::get(int i, int j)const{
+int MatriceCarree::get(int i, int j)const{
 	
 	return colonnes.at(i).at(j);
 	
@@ -38,19 +38,21 @@ int MatriceCarre::get(int i, int j)const{
 	
 }
 
-void  MatriceCarre::set(int i, int j, int val)
+void  MatriceCarree::set(int i, int j, int val)
 {
 		
 	colonnes.at(i).at(j)=val;
 
 }
 
-void  MatriceCarre::redimensionnement(int nouvelleDimension) 
+void  MatriceCarree::redimensionnement(int nouvelleDimension) 
 {
 	
 //MatriceCarre(nouvelleDimension);
 
 }
+
+
 
 
 
